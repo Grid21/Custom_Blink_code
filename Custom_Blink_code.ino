@@ -18,4 +18,6 @@ void loop() {
   delay(500);
   digitalWrite(7, LOW);
   delay(900);
+  digitalWrite(7, HIGH);
+  delay(8000);
 }
